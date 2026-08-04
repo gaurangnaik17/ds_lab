@@ -15,7 +15,7 @@ int main()
         cin >> arr[i];
     }
 
-    // Pointer points to the last element
+    
     ptr = arr + n - 1;
 
     cout << "Array elements in reverse order are: ";

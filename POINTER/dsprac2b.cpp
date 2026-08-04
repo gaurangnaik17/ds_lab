@@ -1,7 +1,6 @@
 #include <iostream>
 using namespace std;
 
-// Call by Value
 void value(int a, int b)
 {
     int temp;
@@ -13,7 +12,6 @@ void value(int a, int b)
     cout << "a = " << a << " b = " << b << endl;
 }
 
-// Call by Reference
 void reference(int &a, int &b)
 {
     int temp;
