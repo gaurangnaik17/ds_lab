@@ -5,7 +5,7 @@ int bsearch(int p[], int l, int h, int k)
 {
     if(l > h)
     {
-        return -1;
+        return -1;  
     }
 
     int mid = (l + h) / 2;
